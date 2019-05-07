@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: drupal8_theme_dates
+label: 'Drupal8 dates'
+locked: false
+pattern: 'jS F Y'

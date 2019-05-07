@@ -1,0 +1,62 @@
+name: 'Drupal8 Profile'
+type: profile
+description: 'Install with commonly used features pre-configured Drupal 8 profile.'
+# version: VERSION
+# core: 8.x
+install:
+  - node
+  - history
+  - big_pipe
+  - block
+  - breakpoint
+  - ckeditor
+  - color
+  - config
+  - contextual
+  - layout_builder
+  - layout_discovery
+  - menu_link_content
+  - datetime
+  - block_content
+  - quickedit
+  - editor
+  - help
+  - image
+  - media
+  - menu_ui
+  - options
+  - path
+  - page_cache
+  - dynamic_page_cache
+  - taxonomy
+  - dblog
+  - search
+  - shortcut
+  - toolbar
+  - field_ui
+  - file
+  - rdf
+  - views
+  - views_ui
+  - tour
+  - automated_cron
+  - responsive_image
+  - content_moderation
+  - workflows
+  - language
+  - locale
+  - config_translation
+  - content_translation
+#  - drupal8_profile_tour
+  - drupal8_module
+#  - metatag
+themes:
+  - seven
+  - drupal8_theme
+keep_english: true
+
+# Information added by Drupal.org packaging script on 2019-05-01
+version: '8.7.0'
+core: '8.x'
+project: 'drupal'
+datestamp: 1556737125

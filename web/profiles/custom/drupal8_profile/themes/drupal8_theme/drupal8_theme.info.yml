@@ -1,0 +1,40 @@
+name: Drupal8 Theme
+type: theme
+base theme: classy
+description: 'The theme used for the Drupal 8 site.'
+# version: VERSION
+# core: 8.x
+libraries:
+  - drupal8_theme/global
+  - drupal8_theme/messages
+  - drupal8_theme/webfonts-open-sans
+  - drupal8_theme/webfonts-scope-one
+
+libraries-override:
+  classy/messages: false
+
+# libraries-extend:
+#   tour/tour-styling:
+#     - drupal8_theme/demo-umami-tour
+
+regions:
+  pre_header: Pre-header
+  header: Header
+  highlighted: Highlighted
+  tabs: Tabs
+  banner_top: 'Banner Top'
+  breadcrumbs: Breadcrumbs
+  page_title: 'Page Title'
+  content: Content
+  sidebar: Sidebar
+  content_bottom: 'Content Bottom'
+  footer: Footer
+  bottom: Bottom
+  page_top: 'Page top' # Needed by Drupal Core
+  page_bottom: 'Page bottom' # Needed by Drupal Core
+
+# Information added by Drupal.org packaging script on 2019-05-01
+version: '8.7.0'
+core: '8.x'
+project: 'drupal'
+datestamp: 1556737125

@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:disclaimer_block:9b4dcd67-99f3-48d0-93c9-2c46648b29de'
+  enforced:
+    module:
+      - drupal8_profile_content
+  module:
+    - block_content
+  theme:
+    - drupal8_theme
+id: drupal8_profile_disclaimer
+theme: drupal8_theme
+region: bottom
+weight: 10
+provider: null
+plugin: 'block_content:9b4dcd67-99f3-48d0-93c9-2c46648b29de'
+settings:
+  id: 'block_content:9b4dcd67-99f3-48d0-93c9-2c46648b29de'
+  label: 'Drupal8 disclaimer'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
