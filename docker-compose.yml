@@ -5,7 +5,7 @@ services:
     image: wodby/mariadb:$MARIADB_TAG
     container_name: "${PROJECT_NAME}_mariadb"
     ports:
-      - 3306:3306
+      - 3333:3306
     stop_grace_period: 30s
     environment:
       MYSQL_ROOT_PASSWORD: $DB_ROOT_PASSWORD
@@ -280,7 +280,7 @@ services:
     container_name: "${PROJECT_NAME}_traefik"
     command: -c /dev/null --web --docker --logLevel=INFO
     ports:
-      - '80:80'
+      - '8000:80'
 #      - '8080:8080' # Dashboard
     volumes:
       - /var/run/docker.sock:/var/run/docker.sock
