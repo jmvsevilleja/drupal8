@@ -48,7 +48,7 @@ install:
   - config_translation
   - content_translation
 #  - drupal8_profile_tour
-  - drupal8_module
+#  - drupal8_module
 #  - metatag
 themes:
   - seven

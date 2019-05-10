@@ -12,9 +12,9 @@ services:
       MYSQL_DATABASE: $DB_NAME
       MYSQL_USER: $DB_USER
       MYSQL_PASSWORD: $DB_PASSWORD
-#    volumes:
-#      - ./mariadb-init:/docker-entrypoint-initdb.d # Place init .sql file(s) here.
-#      - /path/to/mariadb/data/on/host:/var/lib/mysql # Use bind mount
+    #volumes:
+    #- ./mariadb-init:/docker-entrypoint-initdb.d # Place init .sql file(s) here.
+    #  - ./mariadb:/var/lib/mysql # I want to manage volumes manually.
 
   php:
     image: wodby/drupal-php:$PHP_TAG
@@ -291,3 +291,6 @@ services:
 #    external: true
 ## For Xdebug profiler
 #  files:
+  # volumes:
+  #   mariadbdata:
+  #     driver: local
