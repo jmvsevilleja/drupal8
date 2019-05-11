@@ -359,8 +359,13 @@ class InstallHelper implements ContainerInjectionInterface {
 
     // Set field_caption field.
     if (!empty($data['caption'])) {
-      $values['field_caption'] = [['value' => $data['caption']]];
+      $page_caption_path = $this->module_path . '/default_content/languages/' . $langcode . '/page_caption/' . $data['caption'];
+      $page_caption = file_get_contents($page_caption_path);
+      if ($page_caption !== FALSE) {
+        $values['field_caption'] = [['value' => $page_caption]];
+      }
     }
+
     // Set field_image field.
     if (!empty($data['background'])) {
       $image_path = $this->module_path . '/default_content/images/' . $data['background'];
