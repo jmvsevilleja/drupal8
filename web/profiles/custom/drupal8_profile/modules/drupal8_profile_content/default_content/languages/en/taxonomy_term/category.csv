@@ -1,31 +1,41 @@
-id,term
-0,Asset Finance Articles
-1,Bad Credit Car Loan Videos
-2,Bad Credit Car Loans Articles
-3,Broker Specialist
-4,Business Finance
-5,Business Finance Videos
-6,Car Loans
-7,Construction Loans Articles
-8,Equipment Finance
-9,Equipment Finance Videos
-10,Expat Foreign Owner Loans
-11,Expat Foreign Owner Loans Videos
-12,General
-13,Home Loans Articles and Videos
-14,95 Home Loans
-15,Bad Credit Home Loan
-16,Fixed Home Loan Articles
-17,Insurance
-18,Inventory Finance
-19,Investment and Advice | Category
-20,Invoice Finance
-21,Low Doc Construction Loans Articles
-22,Owner Builder Home Loan
-23,Owner Builder Loans Video
-24,Personal Finance
-25,Personal Loans
-26,Self Managed Super Fund Loans
-27,Trade Finance
-28,Trade Finance Videos
-29,Video
+id,term,slug
+1328,95 Home Loans,95-home-loans
+2,Asset Finance Articles,asset-finance-articles
+71,Asset Finance Videos,asset-finance-videos
+92,Bad Credit Car Loan Videos,bad-credit-car-loan-videos
+3,Bad Credit Car Loans Articles,bad-credit-car-loans-articles
+4,Bad Credit Home Loan,bad-credit-home-loan-category
+66,Bad Credit Home Loans Videos,bad-credit-home-loans-videos
+68,Broker Specialist,broker-specialist
+63,Business Finance,business-finance
+64,Business Finance Videos,business-finance-videos
+1402,Car Loans,car-loans
+99,Construction Loans Articles,construction-loans-articles
+103,Construction Loans Videos,construction-loans-videos
+5,Equipment Finance,equipment-finance
+72,Equipment Finance Videos,equipment-finance-videos
+6,Expat Foreign Owner Loans,expat-foreign-owner-loans
+93,Expat Foreign Owner Loans Videos,expat-foreign-owner-loans-videos
+7,Fixed Home Loan Articles,fixed-home-loan-articles
+74,Fixed Home Loan Videos,fixed-home-loan-videos
+1,General,uncategorized
+101,Home Loans Articles and Videos,home-loan-articles-videos
+8,Insurance,insurance
+94,Insurance Videos,insurance-videos
+9,Inventory Finance,inventory-finance
+69,Inventory Finance Videos,inventory-finance-videos
+10,Investment and Advice | Category,investment-and-advice
+11,Invoice Finance,invoice-finance
+95,Invoice Finance Videos,invoice-finance-videos
+75,Loan Calculators Articles,loan-calculators-articles
+98,Low Doc Construction Loans Articles,low-doc-construction-loans-articles
+97,Low Doc Construction Loans Videos,low-doc-construction-loans-videos
+13,Owner Builder Home Loan,owner-builder-home-loan
+65,Owner Builder Loans Video,owner-builder-loans-video
+14,Personal Finance,personal-finance
+67,Personal Loans,personal-loans
+15,Self Managed Super Fund Loans,self-managed-super-fund-loans
+96,Self Managed Super Fund Loans Videos,self-managed-super-fund-loans-videos
+16,Trade Finance,trade-finance
+70,Trade Finance Videos,trade-finance-videos
+17,Video,video

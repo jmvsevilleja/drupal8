@@ -666,9 +666,9 @@ class InstallHelper implements ContainerInjectionInterface {
    */
   protected function processContent($bundle_machine_name, array $content, $langcode) {
     switch ($bundle_machine_name) {
-      case 'recipe':
-        $structured_content = $this->processRecipe($content, $langcode);
-        break;
+      #case 'recipe':
+      #  $structured_content = $this->processRecipe($content, $langcode);
+      #  break;
       case 'article':
         $structured_content = $this->processArticle($content, $langcode);
         break;

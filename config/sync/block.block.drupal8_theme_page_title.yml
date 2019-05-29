@@ -1,0 +1,20 @@
+uuid: fc49d846-1b26-4296-91da-275fb596293c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - drupal8_theme
+_core:
+  default_config_hash: Froi0K8ei2h5ue4zFZFPCzv8hTsXbdao656SbBGGqYg
+id: drupal8_theme_page_title
+theme: drupal8_theme
+region: page_title
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

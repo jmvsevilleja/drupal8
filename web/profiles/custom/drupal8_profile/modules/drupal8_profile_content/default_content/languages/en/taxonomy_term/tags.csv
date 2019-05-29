@@ -1,29 +1,29 @@
-id,term
-1,Alcohol free
-2,Baked
-3,Baking
-4,Breakfast
-5,Cake
-6,Carrots
-7,Chocolate
-8,Cocktail party
-9,Dairy-free
-10,Dessert
-11,Dinner party
-12,Drinks
-13,Egg
-14,Grow your own
-15,Healthy
-16,Herbs
-17,Learn to cook
-18,Mushrooms
-19,Oats
-20,Party
-21,Pasta
-22,Pastry
-23,Seasonal
-24,Shopping
-25,Soup
-26,Supermarkets
-27,Vegan
-28,Vegetarian
+id,term,slug
+18,Bad Credit,bad-credit
+1325,bad credit car loan,bad-credit-car-loan
+1324,bad credit car loan guaranteed approval,bad-credit-car-loan-guaranteed-approval
+1314,bad credit car loans,bad-credit-car-loans
+1316,bad credit home loans,bad-credit-home-loans
+1319,bad credit mortgage loan,bad-credit-mortgage-loan
+1313,borrowing power,borrowing-power
+19,Business,business
+20,Car Loan,car-loan
+1311,car loans,car-loans
+1401,construction,construction
+22,Expat Owner Loan,expat-owner-loan
+1312,financial calculator,financial-calculator
+23,Fund Loan,fund-loan
+1323,home and content insurance,home-and-content-insurance
+1321,home insurance,home-insurance
+25,Home Loan,home-loan
+1320,Home Loans,home-loans
+27,Lender,lender
+28,Lending,lending
+1326,low doc construction finance,low-doc-construction-finance
+1327,low doc construction loans. low doc home loans,low-doc-construction-loans-low-doc-home-loans
+1318,mortgage loans,mortgage-loans
+30,Owner Builder,owner-builder
+1315,owner builder home loans,owner-builder-home-loans
+1317,tips for securing a bad credit home loan,tips-for-securing-a-bad-credit-home-loan
+1322,tips in getting home insurance,tips-in-getting-home-insurance
+28,Vegetarian,

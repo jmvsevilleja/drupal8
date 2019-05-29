@@ -1,0 +1,26 @@
+uuid: 2e8e0936-f1f1-447d-96d4-ab0c5ab222b6
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - drupal8_profile_content
+  theme:
+    - drupal8_theme
+_core:
+  default_config_hash: PZB577E08FzGfjKG4b6YDMGrGoFRS3559q4fp0dSAAk
+id: drupal8_profile_footer_promo
+theme: drupal8_theme
+region: footer
+weight: -1
+provider: null
+plugin: 'block_content:924ab293-8f5f-45a1-9c7f-2423ae61a241'
+settings:
+  id: 'block_content:924ab293-8f5f-45a1-9c7f-2423ae61a241'
+  label: 'Drupal8 footer promo'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

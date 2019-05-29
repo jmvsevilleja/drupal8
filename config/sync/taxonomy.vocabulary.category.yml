@@ -1,0 +1,8 @@
+uuid: b828578b-1949-4bba-8624-b788b983e690
+langcode: en
+status: true
+dependencies: {  }
+name: Category
+vid: category
+description: 'Use this taxonomy to group articles of the same type together.'
+weight: 0

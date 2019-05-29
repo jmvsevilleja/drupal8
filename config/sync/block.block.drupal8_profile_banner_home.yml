@@ -1,0 +1,33 @@
+uuid: 38a406d5-de8d-41bc-89a6-7a050992f8ff
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - drupal8_profile_content
+  module:
+    - system
+  theme:
+    - drupal8_theme
+_core:
+  default_config_hash: P8Ue42w9WS_VOgB8zrz2PDMsZ4XRFpNS6L562WkeIsE
+id: drupal8_profile_banner_home
+theme: drupal8_theme
+region: banner_top
+weight: -7
+provider: null
+plugin: 'block_content:9aadf4a1-ded6-4017-a10d-a5e043396edf'
+settings:
+  id: 'block_content:9aadf4a1-ded6-4017-a10d-a5e043396edf'
+  label: 'Drupal8 Home Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

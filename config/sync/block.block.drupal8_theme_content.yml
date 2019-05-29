@@ -1,0 +1,22 @@
+uuid: 922e53bf-95c5-4dd5-ad86-85e6acae2061
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - drupal8_theme
+_core:
+  default_config_hash: M3WAndzjorjZdaJrS5Eb2t4bvQ9Mbqpe7QELI7Gpclo
+id: drupal8_theme_content
+theme: drupal8_theme
+region: content
+weight: -7
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

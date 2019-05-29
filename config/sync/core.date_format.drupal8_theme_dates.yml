@@ -1,0 +1,10 @@
+uuid: 8ad7f95e-5183-466f-be96-6c4c96ea714c
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: hiLWa5kZ-44Wx2iRhL2-4NGmslsk5cbdRgIXs75IurQ
+id: drupal8_theme_dates
+label: 'Drupal8 dates'
+locked: false
+pattern: 'jS F Y'

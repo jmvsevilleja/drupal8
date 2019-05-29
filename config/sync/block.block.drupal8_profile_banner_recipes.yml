@@ -1,0 +1,33 @@
+uuid: 9cbf377d-840c-4796-ba17-44a2b40c0264
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - drupal8_profile_content
+  module:
+    - system
+  theme:
+    - drupal8_theme
+_core:
+  default_config_hash: XAG0nda1dEPsPuFm7-MRg-aOFzld5rRbxQS437o3CGI
+id: drupal8_profile_banner_recipes
+theme: drupal8_theme
+region: banner_top
+weight: -8
+provider: null
+plugin: 'block_content:4c7d58a3-a45d-412d-9068-259c57e40541'
+settings:
+  id: 'block_content:4c7d58a3-a45d-412d-9068-259c57e40541'
+  label: 'Drupal8 Recipes Banner'
+  provider: block_content
+  label_display: '0'
+  status: true
+  info: ''
+  view_mode: full
+visibility:
+  request_path:
+    id: request_path
+    pages: "/recipes\r\n"
+    negate: false
+    context_mapping: {  }
